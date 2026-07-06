@@ -3,11 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Bento grid</title>
-
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 0.6875rem; text-align: center; }
@@ -18,6 +16,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 </head>
+<<<<<<< HEAD
 <body class="font-[DM_sans]">
   <main class="">
     <section class="grid grid-cols-1 md:grid-cols-3 md:grid-rows-4 md:p-40 p-5 gap-10">
@@ -37,10 +36,40 @@
         <img class="w-3/4" src="./assets/images/illustration-consistent-schedule.webp" alt="">
       </div>
       <div class="md:col-start-3 md:col-end-4 p-3 rounded-lg bg-[#dacffc]">
+=======
+<body class="font-[DM_sans] md:min-h-screen">
+  <main class="md:max-w-max md:mx-auto">
+    <section class="grid grid-cols-1 md:grid-cols-[repeat(4,200px)] md:grid-rows-[250px_195px_220px] p-5 md:p-10 gap-10 md:gap-4">
+
+      <!-- 1. Hero -->
+      <div class="md:w-1/2 md:h-1/2 bg-[#7650dc] text-2xl text-white p-6 rounded-lg text-center md:col-start-2 md:col-span-2 md:row-start-1 md:w-full md:h-full">
+        <p class="font-bold">Social Media <span class="text-[#ffcb6b]">10x</span> Faster with AI</p>
+        <div class="flex">
+        <img class="h-5 flex justify-self-center" src="./assets/images/illustration-five-stars.webp" alt="five stars illustration">
+        </div>
+        <p class="text-sm">Over 4,000 5-star reviews</p>
+      </div>
+
+      <!-- 2. Multiple platforms -->
+      <div class="p-3 rounded-lg md:col-start-2 md:row-start-2">
+        <img src="./assets/images/illustration-multiple-platforms.webp" alt="multiple platforms illustration">
+        <p class="p-3 text-2xl font-bold">Manage multiple accounts and platforms.</p>
+      </div>
+
+      <!-- 3. Consistent schedule -->
+      <div class="p-3 rounded-lg bg-[#ffcb6b] md:col-start-3 md:row-start-2">
+        <p class="p-3 text-2xl font-bold ">Maintain a consistent posting schedule.</p>
+        <img class="w-3/4" src="./assets/images/illustration-consistent-schedule.webp" alt="">
+      </div>
+
+      <!-- 4. Schedule to social media -->
+      <div class="md:w-4/5 p-3 rounded-lg bg-[#dacffc] md:col-start-4 md:row-start-1 md:row-span-2 md:w-full">
+>>>>>>> 411785cfecdbfdbbcec1ba449105eed5738bfa6e
         <p class="p-3 text-2xl font-medium">Schedule to social media.</p>
         <img src="./assets/images/illustration-schedule-posts.webp" alt="">
         <p class="text-center font-medium">Optimize post timings to publish content at the perfect time for your audience.</p>
       </div>
+<<<<<<< HEAD
       <div class="md:col-start-2 md:col-end-3 md:row-start-3 md:row-end-4 p-3 rounded-lg bg-[#7650dc]">
         <div class="flex justify-center" >
         <img class="w-3/4" src="./assets/images/illustration-grow-followers.webp" alt="">
@@ -48,10 +77,22 @@
         <p class="text-center text-2xl font-semibold text-white">Grow followers with non-stop content.</p>
       </div>
       <div class="md:col-start-1 md:col-end-2 p-3 rounded-lg">
+=======
+
+      <!-- 5. Grow followers -->
+      <div class="p-3 rounded-lg bg-[#7650dc] md:col-start-3 md:col-span-2 md:row-start-3">
+        <img class="flex justify-self-center w-3/4" src="./assets/images/illustration-grow-followers.webp" alt="">
+        <p class="text-center text-2xl font-semibold text-white">Grow followers with non-stop content.</p>
+      </div>
+
+      <!-- 6. 56% growth -->
+      <div class="p-3 rounded-lg md:col-start-2 md:row-start-3">
+>>>>>>> 411785cfecdbfdbbcec1ba449105eed5738bfa6e
         <p class="text-5xl">>56%</p>
         <p class="font-medium text-xl">faster audience growth</p>
         <img class="p-5" src="./assets/images/illustration-audience-growth.webp" alt="">
       </div>
+<<<<<<< HEAD
       <div class="md:col-start-1 md:col-end-1">
       <div class="md:bg-[#f9eee1] p-5 rounded-lg ">
         <p class="text-3xl font-bold">Create and schedule content <span class="font-bold text-[#7650dc]">quicker.</span></p>
@@ -62,6 +103,21 @@
         <img class="p-5" src="./assets/images/illustration-ai-content.webp" alt="">
       </div>
       </div>
+=======
+
+      <!-- 7 & 8 wrapped together to span the first column across all 3 rows -->
+      <div class="flex flex-col gap-10 md:gap-4 md:col-start-1 md:row-start-1 md:row-span-3">
+        <div class="md:w-3/4 md:bg-[#f9eee1] p-5 rounded-lg md:w-full md:h-[250px]">
+          <p class="text-3xl font-bold">Create and schedule content <span class="font-bold text-[#7650dc]">quicker.</span></p>
+          <img class="pt-8 flex" src="./assets/images/illustration-create-post.webp" alt="">
+        </div>
+        <div class="md:w-full p-5 rounded-lg bg-[#ffcb6b] md:flex-1">
+          <p class="text-3xl font-bold">Write your content using AI.</p>
+          <img class="p-5" src="./assets/images/illustration-ai-content.webp" alt="">
+        </div>
+      </div>
+
+>>>>>>> 411785cfecdbfdbbcec1ba449105eed5738bfa6e
     </section>
   </main>
   <footer class="attribution">
